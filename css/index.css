@@ -1,0 +1,90 @@
+::selection{
+    background-color: #FEC260;
+}
+body{
+    background-color: #F7ECDE;
+    font-family: "Righteous", serif;
+}
+h1{
+    font-family: "Pacifico", serif;
+    font-size: 50px;
+    position: relative;
+
+}
+h1::before{
+    content: "";
+    width: 25%;
+    height: 20px;
+    
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background-color: #FEC260;
+    z-index: -1;
+}
+.book-body{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    h2{
+        background-image: linear-gradient(to right, #3FA55B , #B4AC49);
+        color: transparent;
+        background-clip: text;
+    }
+    button{
+        width: 15%;
+        background-color: #D1512D;
+        transition: all 0.3s;
+        border: transparent;
+        color: white;
+
+    }
+    button:hover{
+        background-color: #BB4120;
+     }
+    input,label{
+        width: 100%;
+        padding-left: 0;
+    }
+    label{
+        font-weight: 700;
+    }
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+i{
+    margin-right: 10px;
+}
+table{
+    button{
+        
+        border-radius: 5px;
+        padding:10px 5px 10px 5px ;
+        border: transparent;
+        color: white;
+    }
+    #btn1{
+        background-color: #9eb23b;
+        transition: all 0.5s;
+    }
+    #btn1:hover{
+        background-color: #8a9e23;
+    }
+    #btn2{
+        background-color: #eb1d36;
+        transition: all 0.5s;
+    }
+    #btn2:hover{
+        background-color: #D30820;
+
+    }
+
+margin-block: 50px;
+}
